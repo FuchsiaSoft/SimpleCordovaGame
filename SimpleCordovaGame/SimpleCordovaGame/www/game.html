@@ -3,8 +3,9 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/game.css" />
+    <script type="text/javascript" src="scripts/game.js"></script>
 </head>
-<body>
+<body onload="randomise();">
 
     <div id="HeaderArea">
         <p id="CurrentColor" class="ColorText">Current color</p>
@@ -16,10 +17,12 @@
     </div>
     
     <div id="OptionArea">
-        <div id="ColorOption1" class="ColorText">Option 1</div>
-        <div id="ColorOption2" class="ColorText">Option 2</div>
-        <div id="ColorOption3" class="ColorText">Option 3</div>
-        <div id="ColorOption4" class="ColorText">Option 4</div>
+        <div id="ColorOption1" class="ColorText" onclick="optionTapped('ColorOption1');">Option 1</div>
+        <div id="ColorOption2" class="ColorText" onclick="optionTapped('ColorOption2');">Option 2</div>
+        <div id="ColorOption3" class="ColorText" onclick="optionTapped('ColorOption3');">Option 3</div>
+        <div id="ColorOption4" class="ColorText" onclick="optionTapped('ColorOption4');">Option 4</div>
+        <div id="ColorOption5" class="ColorText" onclick="optionTapped('ColorOption5');">Option 5</div>
+        <div id="ColorOption6" class="ColorText" onclick="optionTapped('ColorOption6');">Option 6</div>
     </div>
     
 </body>
