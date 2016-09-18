@@ -1,0 +1,5 @@
+        <div class="app">
+            <p id="deviceready" class="event">
+                <a href="game.html">Start Game</a>
+            </p>
+        </div>
